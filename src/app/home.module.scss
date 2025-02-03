@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // gap: 100px;
+
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    // justify-content: space-between;
+    h1 {
+      font-size: 3em;
+    }
+    .btns {
+      display: flex;
+      gap: 0.5em;
+      a {
+        background-color: #fff;
+        padding: 0.5em 1em;
+        color: #28282b;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+
+        &:first-of-type {
+          background-color: var(--btn);
+          color: var(--text);
+        }
+      }
+    }
+
+    .brands {
+      width: 500px;
+      height: 50px;
+      position: relative;
+      filter: grayscale(1);
+      -webkit-filter: grayscale(1);
+}
+  }
+
+  .imgContainer {
+    position: relative;
+  }
+}
