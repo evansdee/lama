@@ -65,8 +65,14 @@ a {
   width: 649px;
  }
 }
+
 @media (max-width:649px) {
  .container{
   width: 475px;
+ }
+}
+@media (max-width:475px) {
+ .container{
+  width: 380px;
  }
 }

@@ -11,9 +11,19 @@
 .container .textContainer h1 {
   font-size: 3em;
 }
+@media (max-width: 768px) {
+  .container .textContainer h1 {
+    font-size: 64px;
+  }
+}
 .container .textContainer .btns {
   display: flex;
   gap: 0.5em;
+}
+@media (max-width: 768px) {
+  .container .textContainer .btns {
+    justify-content: center;
+  }
 }
 .container .textContainer .btns a {
   background-color: #fff;
@@ -36,6 +46,17 @@
   filter: grayscale(1);
   -webkit-filter: grayscale(1);
 }
+@media (max-width: 768px) {
+  .container .textContainer .brands {
+    width: 100%;
+  }
+}
 .container .imgContainer {
   position: relative;
+}
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
 }/*# sourceMappingURL=home.module.css.map */

@@ -23,7 +23,7 @@ export default function HomePage() {
             <Link href="/contact">Contact</Link>
           </div>
           <div className={styles.brands}>
-            <Image src="/brands.png" fill/>
+            <Image src="/brands.png" alt="" fill/>
           </div>
         </div>
         <div className={styles.imgContainer}>
